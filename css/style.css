@@ -1,0 +1,105 @@
+/* цвет основного текста: #757575 */
+/* цвет вторичного текста: #212121 */
+/* белый цвет: #FFFFFF */
+/* черный цвет: #000000 */
+/* акцент: #2196F3 */
+/* вторичный цвет фона: #F5F4FA */
+/* цвет фона футера, героя: #2F303A */
+/* цвет текста почты и телефона в футере: rgba(255, 255, 255, 0.6) */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color:  #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --secondary-background-color: #F5F4FA;
+    --background-footer-color: #2F303A;
+    --text-adress-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+background-color: var(--white-color);
+color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* верхняя линия */
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--black-color);
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.header-list .link-mail, .header-list .link-tel {
+    color: var(--primary-text-color);
+}
+.header-list .link-mail:hover, .header-list .link-mail:focus {
+    color: var(--accent-color);
+}
+.header-list .link-tel:hover, .header-list .link-tel:focus {
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+    background-color: var(--background-footer-color);
+    color: var(--white-color);
+}
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Особенности */
+.features .title {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team {
+    background-color: var(--secondary-background-color);
+}
+.team-item {
+    background-color: var(--white-color);
+}
+.team-name {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--background-footer-color);
+}
+.footer .logo-web {
+    color:  var(--accent-color);
+}
+.footer .logo-studio {
+    color: var(--white-color);
+}
+.adress-list .link-adress {
+    color: var(--white-color);
+}
+.adress-list .link-mail, .adress-list .link-tel {
+    color: var(--text-adress-color)
+}
