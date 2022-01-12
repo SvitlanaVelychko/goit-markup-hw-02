@@ -116,6 +116,12 @@ a {
 .address-list .link-mail, .address-list .link-tel {
     color: var(--text-adress-color)
 }
+.address-list .link-mail:hover, .address-list .link-mail:focus {
+    color: var(--accent-color);
+}
+.address-list .link-tel:hover, .address-list .link-tel:focus {
+    color: var(--accent-color);
+}
 
 /*Стили страницы портфолио */
 .projects-title {
