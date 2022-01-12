@@ -5,7 +5,9 @@
 /* акцент: #2196F3 */
 /* вторичный цвет фона: #F5F4FA */
 /* цвет фона футера, героя: #2F303A */
+/* цвет фона кнопки заказать услугу: #188CE8 */
 /* цвет текста почты и телефона в футере: rgba(255, 255, 255, 0.6) */
+/* Общие стили */
 :root {
     --primary-text-color: #757575;
     --title-text-color:  #212121;
@@ -14,6 +16,7 @@
     --black-color: #000000;
     --secondary-background-color: #F5F4FA;
     --background-footer-color: #2F303A;
+    --background-color-btn-order: #188CE8;
     --text-adress-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -30,6 +33,7 @@ a {
     text-decoration: none;
 }
 
+/*Стили вебстудии */
 /* верхняя линия */
 .logo-web {
     color: var(--accent-color);
@@ -65,6 +69,9 @@ a {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--background-color-btn-order);
+}
 
 /* Section */
 .section-title {
@@ -72,7 +79,10 @@ a {
 }
 
 /* Особенности */
-.features .title {
+.features-title {
+    opacity: 0;
+}
+.feature-list .title {
     color: var(--title-text-color);
 }
 
@@ -91,10 +101,10 @@ a {
 .footer {
     background-color: var(--background-footer-color);
 }
-.footer .logo-web {
+.adress-list .logo-web {
     color:  var(--accent-color);
 }
-.footer .logo-studio {
+.adress-list .logo-studio {
     color: var(--white-color);
 }
 .adress-list .link-adress {
@@ -102,4 +112,23 @@ a {
 }
 .adress-list .link-mail, .adress-list .link-tel {
     color: var(--text-adress-color)
+}
+
+/*Стили страницы портфолио */
+.projects-title {
+    opacity: 0;
+}
+.filters .button {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+}
+.filters .button:hover, .projects .button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+.project-item {
+    background-color: var(--white-color);
+}
+.project-item .title {
+    color: var(--title-text-color);
 }
