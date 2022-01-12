@@ -56,6 +56,9 @@ a {
 .header-list .link-mail:hover, .header-list .link-mail:focus {
     color: var(--accent-color);
 }
+.header-list .link-mail.current {
+    color: var(--accent-color);
+}
 .header-list .link-tel:hover, .header-list .link-tel:focus {
     color: var(--accent-color);
 }
@@ -101,16 +104,16 @@ a {
 .footer {
     background-color: var(--background-footer-color);
 }
-.adress-list .logo-web {
+.address-list .logo-web {
     color:  var(--accent-color);
 }
-.adress-list .logo-studio {
+.address-list .logo-studio {
     color: var(--white-color);
 }
-.adress-list .link-adress {
+.address-list .link-address {
     color: var(--white-color);
 }
-.adress-list .link-mail, .adress-list .link-tel {
+.address-list .link-mail, .address-list .link-tel {
     color: var(--text-adress-color)
 }
 
@@ -122,7 +125,11 @@ a {
     background-color: var(--secondary-background-color);
     color: var(--title-text-color);
 }
-.filters .button:hover, .projects .button:focus {
+.filters .button:hover, .filters .button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+.filters .button.current {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
