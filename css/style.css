@@ -21,8 +21,9 @@
 }
 
 body {
-background-color: var(--white-color);
-color: var(--primary-text-color);
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
 }
 
 .list {
