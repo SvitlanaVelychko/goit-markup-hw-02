@@ -34,6 +34,19 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 /*Стили вебстудии */
 /* верхняя линия */
 .logo-web {
@@ -83,9 +96,6 @@ a {
 }
 
 /* Особенности */
-.features-title {
-    opacity: 0;
-}
 .feature-list .title {
     color: var(--title-text-color);
 }
@@ -125,9 +135,6 @@ a {
 }
 
 /*Стили страницы портфолио */
-.projects-title {
-    opacity: 0;
-}
 .filters .button {
     background-color: var(--secondary-background-color);
     color: var(--title-text-color);
