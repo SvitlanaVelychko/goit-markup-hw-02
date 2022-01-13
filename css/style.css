@@ -114,6 +114,7 @@ a {
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .hero-btn:hover, .hero-btn:focus {
     background-color: var(--background-color-btn-order);
@@ -205,6 +206,7 @@ text-align: center;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .filters .button:hover, .filters .button:focus {
     background-color: var(--accent-color);
