@@ -86,9 +86,6 @@ a {
 .header-list .link-mail:hover, .header-list .link-mail:focus {
     color: var(--accent-color);
 }
-.header-list .link-mail.current {
-    color: var(--accent-color);
-}
 .header-list .link-tel:hover, .header-list .link-tel:focus {
     color: var(--accent-color);
 }
@@ -176,11 +173,14 @@ text-align: center;
 .address-list .logo-studio {
     color: var(--white-color);
 }
-.address-list .link-address {
+.link-address {
     color: var(--white-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+}
+.link-address:hover {
+    color: var(--accent-color);
 }
 .address-list .link-mail, .address-list .link-tel {
     color: var(--text-adress-color);
